@@ -1,3 +1,22 @@
+### Sort
+
+const alumnas = ["Angie", "Sol", "Flor"]
+const edades = [1, 23, 75, 33, 111, 12, 101]
+const alumnasObj = [
+  {
+    nombre: "Sol", 
+    edad: 17
+  }, {
+    nombre: "Angie",
+    edad: 52
+  }, {
+    nombre: "Flor", 
+    edad: 25
+  }
+]
+
+Utilizando el metodo `sort` ordenar alfabeticamente el array alumnas, de menor a mayor el array edades, y de la edad mas pequeña a la mas grande el array alumnasObj
+
 ### Arrays de objetos
 
 En index.js tienen un array de objetos que representan artistas.
