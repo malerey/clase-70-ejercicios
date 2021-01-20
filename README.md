@@ -2,15 +2,11 @@
 
 En index.js tienen un array de objetos que representan artistas.
 
-Utilizando los métodos de array vistos (map, filter, every, some, find, reduce), crear las siguientes funciones:
+Utilizando los métodos de array vistos (map, filter, every, some, find, reduce, sort), crear las siguientes funciones:
 
 `artistasSolistas`, que tome por parámetro un array de artistas y devuelva un array con les artistas que sean solistas
 
 `artistasPorEdad`, que tome un parámetro "edad" y un array de artistas y devuelva un array con les artistas que tengan dicha edad
-
-`cantidadDeArtistasPorInstrumento`, que tome por parámetro un array de artistas y devuelva un objeto donde cada "instrumento" es una propiedad y su valor la cantidad de artistas que tocan dicho instrumento
-
-`cantidadDeArtistasPorGenero`, que tome por parámetro un array de artistas y devuelva un objeto donde cada "género" es una propiedad y su valor la cantidad de artistas de dicho género
 
 `artistasConMasDiscosQue`, que tome por parámetro "cantidadDeDiscos" y un array de artistas y devuelva un array con les artistas que tiene más de esa cantidad de discos, ordenados de mayor a menor según cantidad de discos
 
@@ -18,6 +14,10 @@ Utilizando los métodos de array vistos (map, filter, every, some, find, reduce)
 
 `artistaConMayorRecaudacion`, que tome por parámetro un array de artistas y devuelva el objeto artista que más recaudó en su último recital (entradasVendidas * costoEntradas)
 
-`artistasConDiscoEnAnio`, que tome por parámetro un parámetro "anio", y devuelva true un array con los artistas que tengan publicado al menos un disco en dicho año
+`artistasConDiscoEnAnio`, que tome por parámetro un parámetro "anio", y devuelva un array con los artistas que tengan publicado al menos un disco en dicho año
 
 `artistaConMasCopias`, que devuelva el objeto artista que más copias de discos en total vendió
+
+`cantidadDeArtistasPorInstrumento`, que tome por parámetro un array de artistas y devuelva un objeto donde cada "instrumento" es una propiedad y su valor la cantidad de artistas que tocan dicho instrumento
+
+`cantidadDeArtistasPorGenero`, que tome por parámetro un array de artistas y devuelva un objeto donde cada "género" es una propiedad y su valor la cantidad de artistas de dicho género
