@@ -1,5 +1,6 @@
 ### Sort
 
+```js
 const alumnas = ["Angie", "Sol", "Flor"]
 const edades = [1, 23, 75, 33, 111, 12, 101]
 const alumnasObj = [
@@ -14,6 +15,7 @@ const alumnasObj = [
     edad: 25
   }
 ]
+```
 
 Utilizando el metodo `sort` ordenar alfabeticamente el array alumnas, de menor a mayor el array edades, y de la edad mas pequeña a la mas grande el array alumnasObj
 
