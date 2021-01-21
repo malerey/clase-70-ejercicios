@@ -35,9 +35,9 @@ Utilizando los métodos de array vistos (map, filter, every, some, find, reduce,
 
 `artistaConMayorRecaudacion`, que tome por parámetro un array de artistas y devuelva el objeto artista que más recaudó en su último recital (entradasVendidas * costoEntradas)
 
-`artistasConDiscoEnAnio`, que tome por parámetro un parámetro "anio", y devuelva un array con los artistas que tengan publicado al menos un disco en dicho año
+`artistasConDiscoEnAnio`, que tome por parámetro un parámetro "anio" y un array de artistas, y devuelva un array con los artistas que tengan publicado al menos un disco en dicho año
 
-`artistaConMasCopias`, que devuelva el objeto artista que más copias de discos en total vendió
+`artistaConMasCopias`, que reciba como parametro un array de artistas y devuelva el objeto artista que más copias de discos en total vendió
 
 `cantidadDeArtistasPorInstrumento`, que tome por parámetro un array de artistas y devuelva un objeto donde cada "instrumento" es una propiedad y su valor la cantidad de artistas que tocan dicho instrumento
 
